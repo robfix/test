@@ -13,4 +13,5 @@ all
 }}'
       commands:
       - show ip int br
-
+      - show run
+      - show log
