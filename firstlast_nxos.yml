@@ -1,12 +1,12 @@
 ---
 - hosts: all
-  connection: local
-  gather_facts: no
-  
-  tasks:
-  - name: show version 
-    nxos_command:
-      commands:
-      - show ip int br
+  connection: local
+  gather_facts: no
+  
+  tasks:
+  - name: show version 
+    nxos_command:
+      commands:
+      - show ip int br
       - show run
       - show logging
