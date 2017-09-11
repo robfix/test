@@ -1,5 +1,3 @@
-
-
 ---
 - hosts: all
   connection: local
@@ -11,4 +9,4 @@
       commands:
       - show ip int br
       - show run
-      - show log
+      - show logging
